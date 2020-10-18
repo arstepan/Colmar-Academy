@@ -93,7 +93,7 @@ li a{
 
     margin: 0 auto;
     color: #4A4A4A;
-    margin: 0 24px;
+   /* margin: 0 24px;*/
     font-size: 1rem;
    
     
@@ -167,6 +167,11 @@ li a{
 
 }
 
+.box .content{
+
+            margin: 0 24px;
+
+}
 
 .start-learning{
 
