@@ -222,7 +222,11 @@ main{
        
 
     }
+    .left, .right{
 
+        margin: 10px;
+
+    }
 
     .learn_section .pic{
 
