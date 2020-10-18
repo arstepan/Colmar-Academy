@@ -94,7 +94,7 @@ li a{
     margin: 0 auto;
     color: #4A4A4A;
     font-size: 1rem;
-   
+   margin: 0 24px;
     
 }
 
@@ -166,11 +166,7 @@ li a{
 
 }
 
-.box .content{
 
-            margin: 0 24px;
-
-}
 
 .start-learning{
 
@@ -214,6 +210,14 @@ main{
 
 @media only screen and (max-width: 800px){
 
+
+    html{
+
+        margin: 0;
+        padding: 0;
+
+    }
+
     .learn_section{
 
         flex-wrap: wrap;
@@ -223,9 +227,16 @@ main{
     }
     .left, .right{
 
-        margin: 10px;
+        margin: 5px;
 
     }
+
+    .content{
+
+        margin: 32px 16px;
+
+    }
+
 
     .learn_section .pic{
 
@@ -287,11 +298,18 @@ main{
 
     header.mobile{
 
-        display: block;
+        display:inline-block;
+        margin: 10px 5px;
 
     }
 
-   
+    footer{
+
+        margin: 0 16px;
+
+    }
+
+    
         
 }
 
