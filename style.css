@@ -1,0 +1,185 @@
+html{
+
+  /* font-size: 16px;*/
+    font-family: sans-serif;
+    color: #4A4A4A;
+}
+
+body{
+   font-size: 1.625em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+
+}
+
+ul{
+
+    display: flex;
+    list-style: none;
+
+}
+
+ul li{
+
+    margin: 0 10px;
+
+}
+
+li a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+
+}
+
+.logo{
+
+    height: 50px;
+
+}
+
+.left{
+
+    width: 60%;
+    margin: 32px 24px;
+
+}
+
+.learn_section{
+
+    background-color: #D8D8D8;
+    display: flex;
+    align-items: center;
+
+}
+.button{
+
+    text-decoration: none;
+    background-color: #4A4A4A;
+    padding: 10px ;
+    color: white;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+   
+
+
+}
+
+.content{
+
+    margin: 0 auto;
+    color: #4A4A4A;
+    margin: 0 24px;
+    
+    
+}
+
+.learn_section .pic img,.practice .pic img, .thesis .pic img {
+
+    width: 100%;
+
+}
+
+.right{
+
+    width: 40%;
+    margin: 32px 24px;
+}
+
+.practice{
+  
+    display: flex;
+
+}
+
+.practice .others{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.boxes{
+
+    display: flex;
+    width: 100%;
+
+}
+
+.boxes .pic {
+
+    width: 35%;
+
+}
+
+.boxes .content{
+
+    width: 65%;
+
+} 
+
+
+.box{
+
+    width: 30%;
+
+}
+.box .pic{
+
+    width: 100%;
+
+}
+
+.box .pic img{
+
+    width: 100%;
+
+}
+
+
+.start-learning{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.box{
+
+    margin: 10px;
+
+}
+
+.center{
+
+    text-align: center;
+
+}
+
+.boxes a{
+
+    text-decoration: none;
+    color: blue;
+
+}
+
+.thesis{
+
+    display: flex;
+
+}
