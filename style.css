@@ -179,7 +179,7 @@ li a{
 
 .box{
 
- /*   margin: 10px;*/
+   margin: 10px;
 
 }
 
@@ -223,17 +223,6 @@ main{
         flex-wrap: wrap;
 
        
-
-    }
-    .left, .right{
-
-        margin: 5px;
-
-    }
-
-    .content{
-
-        margin: 32px 16px;
 
     }
 
